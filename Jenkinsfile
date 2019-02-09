@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("KarunaDhankani/sample-deployment")
+        app = docker.build("karunadhankani/sample-node-deployment")
     }
 
     stage('Push image') {
