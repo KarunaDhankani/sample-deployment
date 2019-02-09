@@ -1,6 +1,6 @@
 FROM node:8
-WORKDIR /app
-COPY package.json /app
+WORKDIR /demo
+COPY package.json /demo
 RUN npm install
-COPY . /app
+COPY . /demo
 CMD ["npm", "start"]
